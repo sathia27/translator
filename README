@@ -1,6 +1,7 @@
 English to tamil translator:
 Usage:
-include gem  "t2etranslator"
+
+gem  "t2etranslator" #include gem
 
 This will print "love" in tamil  as "அன்பு"
 
@@ -15,3 +16,6 @@ puts T2etranslator.translate("Love", "hi");
 
 This will print as "प्यार" (pyar)
 
+Note: This code translates with use of google translate. Feel free to give suggestion and change code.
+
+Email me at: sathia2704@gmail.com
