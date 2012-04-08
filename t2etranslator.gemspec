@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 't2etranslator'
-  s.version     = '0.0.8'
+  s.version     = '0.0.9'
   s.date        = '2012-04-07'
   s.summary     = "E2Ltranslator"
   s.description = "A english to multi language translator"

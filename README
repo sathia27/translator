@@ -6,13 +6,13 @@ gem  "t2etranslator" #include gem
 This will print "love" in tamil  as "அன்பு"
 
 require "t2etranslator"
-puts T2etranslator.translate("Love");
+puts Translator.translate("Love");
 
 For other language you should pass language code as parameter
 "hi" is code for "hindi"
 
 require "t2etranslator"
-puts T2etranslator.translate("Love", "hi");
+puts Translator.translate("Love", "hi");
 
 This will print as "प्यार" (pyar)
 
