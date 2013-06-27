@@ -1,7 +1,8 @@
-English to tamil translator:
 Usage:
 
 gem  "t2etranslator" #include gem
+
+
 
 This will print "love" in tamil  as "அன்பு"
 
