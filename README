@@ -1,22 +1,25 @@
 Usage:
 
-gem  "t2etranslator" #include gem
+gem  "gtranslate" #include gem in rails
+
+Now language codes added for tamil, bengali, telugu, hindi, malayalam, kananda
+
+How to include gem in ruby file?
+
+First install 'gtranslate'
+
+gem install gtranslate
 
 
+create file eg: translate.rb
 
-This will print "love" in tamil  as "அன்பு"
+require 'gtranslate'
+'love'.translate_to 'tamil'
+'love'.translate_to 'Hindi'
 
-require "t2etranslator"
-puts Translator.translate("Love");
+Output:
+அன்பு
+प्यार
 
-For other language you should pass language code as parameter
-"hi" is code for "hindi"
 
-require "t2etranslator"
-puts Translator.translate("Love", "hi");
-
-This will print as "प्यार" (pyar)
-
-Note: This code translates with use of google translate. Feel free to give suggestion and change code.
-
-Email me at: sathia2704@gmail.com
+Note: This is unofficial api for translate.google.com. Which translates the given text to your preferred language from translate.google.com
