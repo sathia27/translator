@@ -11,12 +11,13 @@ Now language codes added for tamil, bengali, telugu, hindi, malayalam, kananda
 
 How to include gem in ruby file?
 
-First install 'gtranslate'
+1. First install 'gtranslate'
+<pre>
+  gem install gtranslate
+</pre>
 
-gem install gtranslate
+2. create file eg: translate.rb
 
-
-create file eg: translate.rb
 ```ruby
 require 'gtranslate'
 'love'.translate_to 'tamil'
