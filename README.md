@@ -22,8 +22,9 @@ How to include gem in ruby file?
   puts 'love'.translate_to 'tamil'
   puts 'love'.translate_to 'Hindi'
   ```
-  <pre>
   Output:
+  -------
+  <pre>
   அன்பு
   प्यार
   </pre>
