@@ -1,7 +1,7 @@
 Translator
 ==========
 
-Ruby library that translates text given in english text to preferred language using google translate.
+Ruby library that translates text given in english text to your preferred language using google translate.
 
 Usage:
 <pre>
@@ -19,8 +19,8 @@ How to include gem in ruby file?
 2. create file eg: translate.rb
   ```ruby
   require 'gtranslate'
-  'love'.translate_to 'tamil'
-  'love'.translate_to 'Hindi'
+  puts 'love'.translate_to 'tamil'
+  puts 'love'.translate_to 'Hindi'
   ```
   <pre>
   Output:
