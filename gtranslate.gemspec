@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'gtranslate'
-  s.version     = '1.0.0'
+  s.version     = '1.1.0'
   s.date        = '2013-06-27'
   s.summary     = "GTranslate"
   s.description = "Translate your english scripts to any language using ruby"

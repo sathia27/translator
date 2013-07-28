@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
-require_relative 'gtranslate/string.rb'
-require_relative 'gtranslate/api.rb'
+require 'gtranslate/string.rb'
+require 'gtranslate/api.rb'
