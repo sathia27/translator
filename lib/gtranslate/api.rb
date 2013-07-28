@@ -5,11 +5,11 @@ class Gtranslate
       language_codes = {'tamil' => 'ta', 'bengali' => 'bn', 'telugu' => 'te', 'malayalam' => 'ml', 'kannada' => 'kn', 'gujarati' => 'gu', 'hindi' => 'hi'}
       language_codes[language]
     end
-    
+
     def url_for code, text
       "http://translate.google.com/?langpair=en|#{code}&text=#{text}"
     end
-    
+
     def api_call_to_google_with language, text
       code = code_for language
       begin
