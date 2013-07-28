@@ -1,1 +1,0 @@
-require 'gtranslate/gtranslate.rb'
